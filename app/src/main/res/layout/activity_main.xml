@@ -10,36 +10,55 @@
 
     <EditText
             android:id="@+id/editDistancia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/EditText"
             android:hint="@string/distancia"
+    />
+    <TextView
+            style="@style/TextView"
+            android:text="@string/totalEmKilometros"
     />
 
     <EditText
             android:id="@+id/editPreco"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/EditText"
             android:hint="@string/preco"
+    />
+    <TextView
+            style="@style/TextView"
+            android:text="@string/precoPorLitro"
     />
 
     <EditText
             android:id="@+id/editAutonomia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/EditText"
             android:hint="@string/autonomia"
+    />
+    <TextView
+            style="@style/TextView"
+            android:text="@string/kilometrosPorLitro"
+    />
+
+    <TextView
+            style="@style/TextView"
+            android:text="@string/totalGastoSeraDe"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorAccentDark"
     />
 
     <TextView
             android:id="@+id/textResultado"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="R$ 0,00"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="@string/CifraoZeroReais"
+            android:textAllCaps="true"
     />
 
     <Button
             android:id="@+id/butttonCalcular"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/Button"
             android:hint="@string/calcular"
     />
 

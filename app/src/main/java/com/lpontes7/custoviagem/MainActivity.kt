@@ -38,7 +38,7 @@ class MainActivity() : AppCompatActivity(), View.OnClickListener {
                 val autonomia = editAutonomia.text.toString().toFloat()
 
                 var resultado = ((distancia*preco)/autonomia)
-                textResultado.text = "Total é R$: $resultado"
+                textResultado.text = "R$: $resultado"
             }
             catch (e:NumberFormatException){
                 mensagemErroValidacao()

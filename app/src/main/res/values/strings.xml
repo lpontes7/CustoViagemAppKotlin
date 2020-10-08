@@ -5,4 +5,9 @@
     <string name="autonomia">Autonomia</string>
     <string name="calcular">Calcular</string>
     <string name="valores_validos">Por favor, informe valores válidos!</string>
+    <string name="totalEmKilometros">Total em Kilometros</string>
+    <string name="precoPorLitro">Preço Por Litro</string>
+    <string name="kilometrosPorLitro">Kilometros por Litro</string>
+    <string name="totalGastoSeraDe">Total gasto será de:</string>
+    <string name="CifraoZeroReais">R$ 0,00</string>
 </resources>
