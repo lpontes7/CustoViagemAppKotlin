@@ -30,20 +30,22 @@ class MainActivity() : AppCompatActivity(), View.OnClickListener {
                 editAutonomia.text.toString()!="0"
     }
 
-    private fun calcular() = if (validar()){
-        try{
-            val distancia = editDistancia.text.toString().toFloat()
-            val preco = editPreco.text.toString().toFloat()
-            val autonomia = editAutonomia.text.toString().toFloat()
+    private fun calcular() {
+        if (validar()){
+            try{
+                val distancia = editDistancia.text.toString().toFloat()
+                val preco = editPreco.text.toString().toFloat()
+                val autonomia = editAutonomia.text.toString().toFloat()
 
-            var resultado = ((distancia*preco)/autonomia)
-            textResultado.text = "Total é R$: $resultado"
-        }
-        catch (e:NumberFormatException){
+                var resultado = ((distancia*preco)/autonomia)
+                textResultado.text = "Total é R$: $resultado"
+            }
+            catch (e:NumberFormatException){
+                mensagemErroValidacao()
+            }
+        } else
             mensagemErroValidacao()
-        }
-    } else
-        mensagemErroValidacao()
+    }
 
     private fun mensagemErroValidacao(){
         Toast.makeText(this, getString(R.string.valores_validos),Toast.LENGTH_LONG).show()
