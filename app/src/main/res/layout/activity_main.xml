@@ -9,30 +9,35 @@
         tools:context=".MainActivity">
 
     <EditText
+            android:id="@+id/editDistancia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/distancia"
     />
 
     <EditText
+            android:id="@+id/editPreco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/preco"
     />
 
     <EditText
+            android:id="@+id/editAutonomia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/autonomia"
     />
 
     <TextView
+            android:id="@+id/textResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="R$ 0,00"
     />
 
     <Button
+            android:id="@+id/butttonCalcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/calcular"
