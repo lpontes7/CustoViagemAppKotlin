@@ -1,8 +1,9 @@
 <img src="http://i.imgur.com/HzmmBvZ.jpg" />&nbsp;
 
-Project
+Projeto
 ===================================================================
-Name | Demo                                                         
+Name/Descrição | Tela                                                         
 --- | ---                                           
-Calcular Preço da Viagem | ![Screenshot](app.png)
+Calcular Preço da Viagem 
+App simples que tem como objetivo calcular preço de uma viagem baseado na autonomia do veiculo, preço da gasolina e kms percorridos  | ![Screenshot](app.png)
 
